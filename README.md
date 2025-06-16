@@ -1,52 +1,48 @@
-# 🧠 Atividade 02 – Condicionais
 
-Este projeto contém duas funções JavaScript simples que utilizam estruturas condicionais (`if`, `else if`, `else`) para realizar classificações com base em números e idades.
+# 📘 Atividade 02 – Condicionais
 
-## ✨ Objetivos
+Este projeto contém duas partes, utilizando estruturas condicionais em JavaScript para:
 
-- Praticar estruturas condicionais.
-- Aplicar lógica para tomada de decisões com base em entradas numéricas.
+1. Verificar se um número é positivo, negativo ou zero.
+2. Classificar uma pessoa de acordo com a idade.
 
 ---
 
-## 🔹 Parte 1: Classificação de Números
+## 🔸 Parte 1 – Verificação de Números
 
-### Descrição
+### ✔️ Objetivo:
+Criar uma função que analise se um número é:
 
-A função `verificarNumero(numero)` identifica se o número informado é:
+- Positivo (maior que 0)
+- Negativo (menor que 0)
+- Zero (igual a 0)
 
-- **Positivo** → quando é maior que 0.
-- **Negativo** → quando é menor que 0.
-- **Zero** → quando é igual a 0.
+### 🧪 Exemplo:
 
-### Exemplo de uso
-
-
-verificarNumero(10);   // Saída: O número é positivo.
-verificarNumero(-5);   // Saída: O número é negativo.
-verificarNumero(0);    // Saída: O número é zero
+```javascript
+verificarNumero(5);   // Saída: O número é positivo.
+verificarNumero(-2);  // Saída: O número é negativo.
+verificarNumero(0);   // Saída: O número é zero.
 
 
-🔹 Parte 2: Classificação por Idade
-A função classificarIdade(idade) classifica uma pessoa de acordo com a sua idade nas seguintes categorias:
+```
 
-Criança → Menos de 12 anos.
+Parte 2 – Classificação por Idade
+✔️ Objetivo:
+Criar uma função que classifique uma pessoa com base na idade:
 
-Adolescente → De 12 a 17 anos.
+Criança → Menos de 12 anos
 
-Adulto → De 18 a 64 anos.
+Adolescente → 12 a 17 anos
 
-Idoso → 65 anos ou mais.
+Adulto → 18 a 64 anos
 
-Exemplo de uso
+Idoso → 65 anos ou mais
 
-classificarIdade(8);    // Saída: Criança
-classificarIdade(15);   // Saída: Adolescente
-classificarIdade(30);   // Saída: Adulto
-classificarIdade(70);   // Saída: Idoso
-💻 Tecnologias Utilizadas
-JavaScript
+🧪 Exemplo:
+````javascript
 
-Node.js (para execução no terminal, opcional)
-
-VS Code ou qualquer editor de texto
+classificarIdade(10);  // Saída: Criança
+classificarIdade(16);  // Saída: Adolescente
+classificarIdade(45);  // Saída: Adulto
+classificarIdade(70);  // Saída: Idoso
