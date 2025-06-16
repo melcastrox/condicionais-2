@@ -21,10 +21,11 @@ A função `verificarNumero(numero)` identifica se o número informado é:
 
 ### Exemplo de uso
 
-```javascript
+
 verificarNumero(10);   // Saída: O número é positivo.
 verificarNumero(-5);   // Saída: O número é negativo.
-verificarNumero(0);    // Saída: O número é zero.
+verificarNumero(0);    // Saída: O número é zero
+
 
 🔹 Parte 2: Classificação por Idade
 A função classificarIdade(idade) classifica uma pessoa de acordo com a sua idade nas seguintes categorias:
