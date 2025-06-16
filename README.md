@@ -27,7 +27,8 @@ verificarNumero(0);   // Saída: O número é zero.
 
 ```
 
-Parte 2 – Classificação por Idade
+
+## 🔸 Parte 2 – Classificação por Idade
 ✔️ Objetivo:
 Criar uma função que classifique uma pessoa com base na idade:
 
